@@ -1,0 +1,92 @@
+body{
+    margin:0;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+  
+}
+#form-div{
+    position: absolute;
+}
+
+#form{
+    position: absolute;
+}
+
+#form-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 108vh;
+    font-size: 30px;
+    width:100%;
+}
+
+#form-div form input{ 
+    margin:20px;
+    font-family: "Gill sans";
+    font-size: 25px;
+}
+
+.font-style{
+    font-size: 30px;
+    font-family: Times new roman;
+}
+
+#form-id label{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:grey;
+}
+
+#form-id input{
+    font-size: 50px;
+    border-radius: 12px;
+}
+
+#footer-div {
+    position: absolute;
+    left: 0;
+    bottom: -26pc;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    height: 417px;
+}
+
+#error_msg_id
+{
+    position: absolute;
+    top: 46pc;
+
+}
+
+#contact{
+    font-family:sans-serif;
+    font-weight:500;
+}
+
+#contact-div p{
+    font-size: 24px;
+}
+
+.info-font{
+
+    font-family: verdana;
+    font-size:25px;
+    font-weight: 500;
+}
+
+b{
+    font-weight: 500;
+    font-family: sans;
+    font-size: 30px;
+}
+
+#submit_id{
+    font-size: 30px;
+}

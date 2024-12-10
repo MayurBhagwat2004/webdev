@@ -1,0 +1,12 @@
+#reservation-div{
+    position: absolute;
+    font-size: 20px;
+    left: 48vh;
+    text-align: center;
+}
+ table{
+    border-spacing: 45px;
+}
+table button{
+    font-size: 20px;
+}

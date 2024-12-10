@@ -1,0 +1,15 @@
+#iframe-id{
+    height:600px;
+    width:1422px;    
+}
+
+#btn-div button{
+    font-size: 20px;
+}
+
+#btn-div{
+    position: absolute;
+    left: 95vh;
+    top:70vh;
+}
+

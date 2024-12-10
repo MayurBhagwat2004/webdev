@@ -1,0 +1,13 @@
+table tr td
+{
+    font-size: 30px;
+    font-family: math;
+    padding:23px;
+}
+
+#pagination-div
+{
+    display: flex;
+    justify-content: center;
+}
+

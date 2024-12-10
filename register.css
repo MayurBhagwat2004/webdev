@@ -1,0 +1,98 @@
+body
+{
+  margin: 0;
+}
+
+#header p
+{
+  line-height: 10px;
+}
+
+#header
+{
+  background-color: blue;
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  position: relative;
+}
+
+.main-div
+{
+  background-color: #9f9f9f;
+  padding-bottom: 50px;
+}
+
+.right-section
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(61, 61, 61);
+  box-shadow: 12px 12px 12px 12px rgb(61, 61, 61) inset;
+}
+
+.right-section button,
+.submit-btn button
+{
+  background-color: rgb(61, 61, 61);
+  height: 100%;
+  width: 100px;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: Roboto, Arial;
+  transition: 0.3s;
+}
+
+.right-section button:hover,
+.submit-btn button:hover
+
+{
+  background-color: white;
+  color: black;
+}
+
+.img-div img
+{
+  width: 100%;
+}
+
+.login-form-div
+{
+  margin-left: 35%;
+  height: 600px;
+  width: 500px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.login-div-items
+{
+  display: grid;
+  height: 100%;
+  row-gap: 20px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.login-div-items input
+{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.inputs
+{
+  width: 90%;
+  font-family: Roboto,Arial;
+  font-size:20px;
+}
+
+.input-font
+{
+  font-size: 20px;
+  font-family: Roboto, Arial;
+  text-align: center;
+  color: #dac6c6;
+}

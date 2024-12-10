@@ -1,0 +1,234 @@
+
+.font{
+    font-size: 30px;
+    font-family: Cedarville Cursive;
+    font-weight: 700;
+    
+}
+
+#dashboard-div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: math;
+}
+
+#menu-para{
+    text-shadow: 0px 4px 20px black;
+    transition: 0.5s;
+}
+
+#menu-para:hover{
+    text-shadow: 0px 0px 0px white;
+}
+
+#menu-div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: math;
+}
+
+#menu-dishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#menu-dishes h1{
+    padding: 18px 21px 9px 59px;
+    text-shadow:0px 4px 20px black;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+#menu-dishes div:hover{
+   text-shadow: 0px 0px 0px white;
+   font-size: 14px;
+}
+
+#iframe-id{
+    height:450px;
+    width:600px;
+    position: absolute;
+    left: 64vh;
+    top:74vh;
+}
+
+#staff-para
+{
+    position: absolute;
+    left: 42pc;
+}
+
+
+
+#btn-div{
+    position: absolute;
+    top:145vh;
+}
+
+#btn-div button{
+    font-size: 27px;
+}
+
+#edit-btn-div{
+    position:absolute;
+    top:130vh;
+}
+
+#edit-btn-div button{
+    font-size: 27px;
+    border-radius: 6px;
+    margin:12px;
+}
+
+#reservation-div{
+    position: absolute;
+    top: 180vh;
+    left: 93vh;
+    text-align: center;
+}
+
+ table{
+    border-spacing: 125px;
+}
+
+#reservation-iframe{
+    height: 800px;
+    width: 1439px;
+    position: absolute;
+    top: 8vh;
+    left: 0vh;
+}
+
+#iframe-div-menu{
+    position: absolute;
+    left: -155vh;   
+}
+
+
+.info-text{
+    font-size: 30px;
+    font-family: verdana;
+}
+
+#staff-div{
+    position: absolute;
+    top: 300vh;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: 270vh;
+    left: 40px;
+}
+
+#staff-section1{
+    display: flex;
+    top: 25vh;
+    position: absolute;
+}
+#staff-section2{
+    display: flex;
+    top: 162vh;
+    position: absolute;
+}
+
+.pic-div{
+    height: 750px;
+    width: 485px;
+    margin:12px;
+    border-radius: 12px;
+    background-color: grey;
+    text-align: center;
+    font-size: 35px;
+    font-family: Lucida sans;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.pic-div img{
+    height: 528px;
+    width: 485px;
+    border-radius: 12px;
+}
+
+.pic-div:hover{
+    box-shadow: 0px 2px 22px 10px black;
+}
+
+
+  .frame {
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h2 {
+    position: relative;
+    text-align: center;
+    color: #353535;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #a759f5;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+    color: #d6adff;
+    margin: 0;
+}
+
+#data-iframe{
+    height:450px;
+    width:600px;
+    position: absolute;
+    left: 64vh;
+    top:90vh;
+}
+
+#iframes-div{
+  position: absolute;
+  top:209vh;
+  left:0vh;
+  height: 800px;
+  width: 100%;
+  background-color: grey;
+}
+
+.topnav {
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+    font-size: 28px;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+  }
+  
+  

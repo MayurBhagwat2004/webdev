@@ -1,0 +1,22 @@
+body{
+    margin:0;
+}
+
+#snacks-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr td{
+    font-family: math;
+    font-size: 30px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 17px;
+    opacity: 0.9;
+
+}
+table tr{
+    margin:23px;
+}

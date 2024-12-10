@@ -1,0 +1,777 @@
+body{
+    margin:0;
+    background-color: rgb(237, 234, 222);
+}
+
+li
+{
+    display:inline;
+}
+
+body
+{
+    margin:auto;
+}
+#navbar
+{
+    overflow:hidden;
+    display: flex; 
+    background-color: #eeeff1;
+      
+}
+
+#navbar ul li{
+    width: 23px;
+    
+}
+#navbar a
+{
+    font-size: 20px;
+    padding:13px;
+    color:black;
+    text-decoration: none;
+    text-shadow: 0px 8px 10px rgba(0,0,0,0.4);
+    transition: 0.5s;
+
+}
+
+#navbar a:hover{
+    font-size: 18px;
+    text-shadow: 0px 0px 0px white;
+    cursor:pointer;
+}
+
+#home-section-div{
+    background-color: grey;
+}
+
+#book-div
+{
+    position:absolute;
+    top:37%;
+    left:24%;
+}
+
+#main-book-div
+{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 5vh;
+
+}
+
+#main-book-div button
+{
+    margin:auto;        
+
+}
+#food-img-div
+{
+    
+    height: 1000px;
+}
+
+#food-img-div img
+{
+    width: 100%;
+    height:100%;
+    
+}
+
+.para
+{
+    font-size: 40px;
+    font-family: verdana;
+    text-align: center;
+    color: rgb(103 89 89);
+    font-weight: 500;
+}
+
+
+#login-btn
+{
+    font-size: 20px;
+    margin-left: auto;
+    border-radius:7px;
+    width:7%;
+}
+
+#more-info-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia;
+    font-size:23px;
+    background-color: rgb(237, 234, 222);
+    height:140vh;
+    width:100%;
+}
+
+#click-me-btn
+{
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+
+#about-desc-id
+{
+    position: absolute;
+    font-size: 30px;
+    width:70vh;
+}
+
+#pic02-div
+{
+    position: absolute;
+    top: 108vh;
+    
+}
+
+#pic02-div img
+{
+    height:500px;
+    width:600px;
+    border-radius: 23px;
+}
+
+
+#our-mission-para-id
+{
+    font-size: 40px;
+}
+
+#mission-desc-para-id
+{
+    font-size: 34px;
+    font-family: Georgia;
+}
+
+.font-style
+{
+    font-family:Georgia;
+    font-size: 20px;
+}
+
+.normal-message-style
+{
+    font-family:math;
+    font-size: 25px;
+}
+
+#contact-id
+{
+    position: absolute;
+    top: 205rem;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 224, 224);
+}
+
+#contact-para-id
+{
+    font-size:34px;
+}
+
+#contact-para-div
+{
+    display: flex;
+    justify-content: center;
+}
+
+#message-div
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#message-div input
+{
+    font-size: 20px;
+    margin:4px;
+}
+
+#send-btn
+{
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#contact-more-div
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#book-btn-id
+{
+    font-family: 'Segoe UI';
+}
+
+
+.book-btn {
+  background-color: rgb(237, 249, 169)(217, 255, 0);
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px;
+  color: rgb(70, 87, 64);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'sans-serif';
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 26px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.book-btn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px;
+  transform: scale(1.05);
+}
+
+#section-01-div{
+    background-color: rgb(237, 234, 222);
+}
+
+#Menu-text-id{
+    position:absolute;
+    top:150vh;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+table tr td{
+    font-size: 35px;
+    padding:23px;
+}
+
+#data-div{
+    /* background-color: rgb(174, 158, 158); */
+    height:460px;
+    width:550px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 45px;
+}
+
+#data-div iframe{
+    height: 430px;
+    width: 550px;
+}
+
+#menu-div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width:800px;
+    opacity: 0.8;
+    background-image: url("../img/pexels-ella-olsson-1640773.jpg");
+    background-position: 70% 0%;
+    border-radius: 45px;
+}
+
+table td{
+    background-color: antiquewhite;
+    opacity: 0.7;
+    border-radius: 23px;
+}
+
+#headline{
+    color:black;
+}
+
+#more-menu-btn-div{
+    position: absolute;
+    top: 230vh;
+}
+
+
+#more-btn-id{
+    font-size: 30px;
+    border-radius: 7px;
+    transition: 0.5s;
+    color: black;
+    background-color: aliceblue;
+}
+
+#more-btn-id:hover{
+    font-size: 32px;
+    color:white;
+    background-color: black;
+}
+
+#about-us-div{
+    height:115vh;
+}
+
+#about-us-div img{
+    height:600px;
+    width:660px;
+    border-radius: 90px;
+}
+
+#about-us-div h1{
+    position: absolute;
+    text-align: center;
+    left: 90vh;
+    top: 253vh;
+
+}
+
+#para-div{
+    position: absolute;
+    top: 155pc;
+    left: 48pc;
+    width: 90vh;
+    color:black;
+    border-radius: 23px;
+    transition: 0.5s;
+    opacity:0.5;
+
+}
+
+#para-div:hover{
+    color:black;
+    opacity: 1;
+}
+
+#about-para{   
+    font-size: 32px;
+    font-family: math;
+    font-weight: 600;
+    padding-left:34px;
+    padding-left:34px;
+    cursor:pointer;
+}
+
+#about-img-div{
+    position: absolute;
+    top:150pc;
+    left:2pc;
+}
+
+#about-btn-div{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-family: math;
+    font-size: 32px;
+    position: absolute;
+    top: 195pc;
+    left: 45pc;
+}
+
+#about-btn{
+    font-size: 28px;
+    font-family:'Gill Sans MT';
+    border-radius: 12px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+#about-btn:hover{
+    font-size: 30px;
+    box-shadow: 9px 45px 46px 4px;
+}
+
+#contact-us-div{
+    font-size: 30px;
+    height: 96vh;
+    width:100%;
+    text-align: center;
+    top: 290pc;
+    position: absolute;
+}
+
+#contact-us-div img{
+    height:800px;
+    width:800px;
+    border-radius: 34px;
+}
+
+#contact-us-info{
+    display: flex;
+    flex-direction: column;
+    width: 42px;
+}
+
+#contact-btn input{
+    font-size:30px;
+    border-radius: 12px;
+    box-shadow:0px 8px 10px rgba(0,0,0,0.4);
+    transition: 0.5s;
+    width:6rem;
+}
+
+#contact-btn input:hover{
+    box-shadow:0px 0px 0px white;
+}
+
+#reserve-img{
+    position: absolute;
+    width:100%;
+}
+
+#reserve-div img{
+    height: 800px;
+    width:100%;
+}
+
+#reserve-para{
+    position: absolute;
+    left: 78vh;
+    top: 238pc;
+}
+
+#reserve-para p{
+    font-size:33px;
+    color:white;
+    font-style:italic;
+}
+
+#resv-btn{
+    position:absolute;
+    left:5vh;
+}
+
+#contact-img{
+    background-color: blue;
+    height: 665px;
+    width: 659px;
+    position: absolute;
+    left: 60vh;
+}
+
+.form-input{
+    font-size: 25px;
+    font-family: Tahoma;
+    font-style:italic;
+    font-weight: 500;
+    border-radius: 12px;
+    box-shadow: 4px 15px 23px 2px;
+
+}
+
+#contact-label1{
+    font-family:verdana;
+}
+
+#contact-label2{
+    font-family: verdana;
+}
+#footer-div {
+    position: absolute;
+    left: 0;
+    top: 357pc;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    height: 352px;
+    overflow: hidden;
+}
+
+#contact{
+    font-family:sans-serif;
+    font-weight:500;
+}
+
+#contact-div p{
+    font-size: 24px;
+}
+
+.info-font{
+
+    font-family: verdana;
+    font-size:25px;
+    font-weight: 500;
+}
+
+b{
+    font-weight: 500;
+    font-family: sans;
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );  
+    
+  }
+  
+  .card img{
+    height: 500px;
+    border-radius: 10%;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+    
+   
+    
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .parallax{
+    background-image: url("../img/aboutBackground.jpg");
+    min-height: 1500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+  }
+  
+  #desc-div{
+    position:absolute;
+    top:0px;
+    font-size: 30px;
+    width:780px;
+    height: 500px;
+  
+  }
+  
+  #desc-div h1{
+    position: absolute;
+    top:12pc;
+    left:24pc;
+  }
+  
+  #desc
+  {
+    position: absolute;
+    top: 29pc;
+    left: 59pc;
+    font-size: 34px;
+    width: 493px;
+  
+  }
+  
+  #desc h3{
+    font-family: monospace;
+    font-size: 37px;
+    position: absolute;
+    left: -45pc;
+    width: 28pc;
+    top: 39pc;
+  }
+  
+  .row{
+    background-color: powderblue;
+  }
+  
+  .row h1{
+    font-size: large;
+    font-family: sans-serif;
+    font-size: 37px;
+  }
+  
+  .about-chef-img{
+    height: 503px;
+    width: 605px;
+    position: absolute;
+    right: 35pc;
+    top: 2pc;
+  }
+  
+  
+  .about-chef-img img{
+    height: 550px;
+    width: 400px;
+    border-radius: 23%;
+    
+  }
+  
+  #dish-img
+  {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top:38pc;
+    border-radius: 50%;
+  }
+  
+  footer
+  {
+    background-color: rgb(116, 180, 183);
+  
+  }
+  
+  .footer-container
+  {
+    width: 100%;
+    padding: 70px 30px 20px ;
+  
+  }
+  
+  .social-icons
+  {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  
+  .social-icons i
+  {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2em;
+    color: powderblue;
+    margin: 10px;
+    border-radius: 50%;
+    opacity: 0.9;
+  }
+  
+  .social-icons i:hover
+  {
+    background-color: #111;
+    transition: 0.5s;
+  
+  }
+  
+  .footer-nav
+  {
+    margin: 30px 0px;
+  
+  }
+  
+  .footer-nav ul
+  {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .footer-nav ul a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    
+  }
+  
+  
+  
+  .footer-nav ul a:hover
+  {
+    opacity: 1;
+    color: rgb(78, 116, 121);
+  }
+  
+
+  .footer-bottom
+  {
+    padding: 20px;
+    text-align: center;
+  
+  }
+  
+  .designer
+  {
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px ;
+  
+  }
+
+.user-info
+{
+    display: flex;
+    row-gap: 22px;
+    width: 267px;
+    margin-left: 72pc;
+    justify-content: end;
+}
+
+.user-info p
+{
+    font-size: 20px;
+    font-family: Roboto,Arial;
+    
+}
+
+.user-info-btn
+{
+    font-size: 20px;
+    font-family: Roboto,Arial;
+    width: 120px;
+    margin-left: 20px;
+    transition:0.3s;
+    opacity: 0.8;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.user-info-btn:hover
+{
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
